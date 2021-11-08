@@ -1,0 +1,52 @@
+if statement compare x to y
+
+	+ x times value
+	>[-]>[-]>[-]+<<<
+	- minus y times that is the value to be equal
+	[>]>>[>
+		// 4 cells further than x value
+		not equal block also come back here!
+
+
+
+	<<<]>[>
+		// 4 cells further than x value
+		equal block also come back here!
+
+
+	<<]>-<<<
+	+ y times
+
+long version:
+
+if statement compare x to y
+
++ x times value
+>[-] 0
+>[-] 0
+>[-]+ 1
+<<<
+- minus y times that is the value to be equal
+[
+>
+]
+>>
+[
+> // 4 cells further than x value
+not equal block also come back here!
+
+
+
+<<<
+]
+>
+[
+> // 4 cells further than x value
+equal block also come back here!
+
+
+<<
+]
+clean up
+>-
+<<< + y times
