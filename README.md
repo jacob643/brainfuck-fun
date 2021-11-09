@@ -16,6 +16,10 @@ writing debughere in the code will show the debug and ask to continue the execut
 
 
 # code convention
+
+## Indentation
+I tried to Indent all the loops (unless they were in a known function, see the lasts if statements called) So It's easy to understant, sometimes I would indent only for comments, so I know what the comment refers to.
+
 ## comments
 throughout my code, trying to make it as readable as possible, I wrote a lot of comments and //index specifies the index on the tape we should be at.
 
