@@ -40,7 +40,7 @@ and return ascii value
 3 contains 0
 >, //4 contains units
 > // 5 contains tens
-> // 6 contains centaines
+> // 6 contains hundreds
 << // 4
 
 move units to cell 8
@@ -443,7 +443,7 @@ move units to cell 8
 move back remaining units to cell 4
 [-<<<<+>>>>]
 
-redo same operation but for tens and centaines here
+redo same operation but for tens and hundreds here
 
 <<<//5
 ASCII max is 127 so we will just check if tens is 10 11 or 12
@@ -502,7 +502,7 @@ add 0 ascii to the 3 cells
 	>>+ //3
 	>+ //4 units
 	>+ //5 dizaines
-	>+ //6 centaines
+	>+ //6 hundreds
 	<<<<< //1
 ]
 
